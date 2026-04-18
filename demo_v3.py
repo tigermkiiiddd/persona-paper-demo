@@ -158,7 +158,7 @@ def main():
     print(f"  角色: 老儒生 + 女侠(左臂受伤)")
     print(f"  自触发规则: {len(sim.self_triggers)}条")
 
-    sim.run(num_slices=3, callback=print_snapshot)
+    sim.run(num_slices=10, callback=print_snapshot)
 
     # 稳态验证
     print(f"\n{'═' * 60}")
