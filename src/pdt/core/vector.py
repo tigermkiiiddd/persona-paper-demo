@@ -359,6 +359,9 @@ class CharacterVector(BaseModel):
         description="20个维度的个性化配置"
     )
     
+    def to_list(self) -> list[float]:
+        return list(self.values)
+
     def get_value(self, dim: Dimension) -> float:
         return self.values[dim.value]
     

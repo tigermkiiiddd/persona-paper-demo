@@ -23,7 +23,7 @@ from pdt.core.causal import CausalEngine
 from pdt.core.character import Character
 from pdt.core.spatial import WorldEvent
 from pdt.core.timeslice import Tempo
-from pdt.core.behavior import CharacterBehavior
+
 from pdt.engine.simulation import Simulation
 from pdt.llm.behavior import BehaviorGenerator
 
